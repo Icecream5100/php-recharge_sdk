@@ -1,0 +1,32 @@
+{
+    "name": "icecream/recharge_sdk",
+    "description": "油卡充值 sdk渠道 万众惠 欧飞",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "icecream",
+            "email": "icecream@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "illuminate/http": "*",
+        "icecream/tool": "^1.0",
+        "ext-xml": "*",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ice\\Recharge\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ice\\Recharge\\ServiceProvider"
+            ]
+    }
+}
+}
