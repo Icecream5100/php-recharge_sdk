@@ -2,7 +2,7 @@
 ## Installing
 
 ```shell
-$ composer require ydz/recharge_sdk
+$ composer require icecream/recharge_sdk
 ```
 
 ## Usage
